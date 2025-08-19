@@ -1,6 +1,6 @@
 <?php
 
-class Aluno {
+class Estudante {
     public $nome;
     public $sobrenome;
     public $notas;
@@ -12,7 +12,7 @@ class Aluno {
     }
 }
 
-$aluno1 = new Aluno();
+$aluno1 = new Estudante();
 $aluno1->nome = "Thiago";
 $aluno1->sobrenome = "Pedro Padilha";
 
