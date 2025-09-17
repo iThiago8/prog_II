@@ -14,3 +14,10 @@ class Calculator {
         return $result;
     }
 }
+
+
+$calc = new Calculator();
+
+echo "Two integers sum: 2 + 5: " . $calc->sum(2, 5) . '<br>';
+
+echo "Three integers sum: 2 + 5 + 6: " . $calc->sum(2, 5, 6) . '<br>';
